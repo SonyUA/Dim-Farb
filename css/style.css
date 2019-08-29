@@ -1,675 +1,642 @@
-
-
 body {
-	font-family: 'Montserrat', sans-serif;
-	background-image: url(../img/images/Bcgraund1.jpg);
-    background-attachment: fixed;
-	background-size: cover;
-	background-position: center;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(../img/images/wood-2045379.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
- body:before {
-    content: '';
-    background-image: url(../img/images/Bcgraund1.jpg);
-    position: fixed;
-	background-size: cover;
-	background-position: center;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-} 
+body:before {
+  content: '';
+  background-image: url(../img/images/wood-2045379.jpg);
+  position: fixed;
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
 
-
-	
 
 /* Хедер */
 
 .navigation {
-	margin: 50px auto;
+  margin: 50px auto;
 }
 
 .nav-box {
-	margin:5px 0px
+  margin: 5px 0px
 }
 
 .logotyp {
-	width: 200px;
-	margin: 5px auto;
-	display: block;
+  width: 200px;
+  margin: 5px auto;
+  display: block;
 }
 
 .link-font {
-	color: #ded7d7;
-	font-size: 20px;
-	font-weight: 500;
+  color: #ded7d7;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .tel {
-	margin: 5px 0px;
-	text-align: center;
-	display: block;
-	color:#ded7d7;
-	font-size: 20px;
-	font-weight: 500;
+  margin: 5px 0px;
+  text-align: center;
+  display: block;
+  color: #ded7d7;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .social-box {
-	text-align: center;
+  text-align: center;
 }
 
 .social-icon {
-	
-	width: 24px;
-	height: 24px;
-	margin: 10px 5px;
+  width: 24px;
+  height: 24px;
+  margin: 10px 5px;
+  transition: all 0.3s;
 }
+
 
 /* Основний контент */
 
 .title_responsivB {
-		display: none;
-	}
-
-
-.title-head {
-	color:#ded7d7;
-	font-size: 50px;
-	margin: 10px 0px;
-	font-weight: 500;	
+  display: none;
 }
 
+.title-head {
+  color: #ded7d7;
+  font-size: 50px;
+  margin: 10px 0px;
+  font-weight: 500;
+}
 
 
 /* Секція з брендами логотипи */
 
 .bgrnd-brand {
-	margin: 50px auto;
-	background-color: rgba(255, 255, 255, 0.7);
+  margin: 50px auto;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
+.img-fluid {
+  transition: all 0.4s;
+}
 
 
 /* Карточки ми пропонуємо*/
 
 .cards {
-	margin: 50px auto;
+  margin: 50px auto;
 }
 
 .cards_bgrnd {
-	background-color: rgba(0, 0, 0, 0.4);
-	margin-top: 50px;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-top: 50px;
 }
 
 .card-boxx {
-	margin-top: 20px;
-	border-radius: 0px;
-	background-color:rgba(0, 0, 0, 0.4);
+  margin-top: 20px;
+  border-radius: 0px;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .cards-image {
-	border-radius: 0px;
+  border-radius: 0px;
 }
 
 .cards-titles {
-	color: #ded7d7;
-	font-weight: 500 !important;
-	text-align: center;
-	font-size: 24px;
-	text-transform: uppercase;
+  color: #ded7d7;
+  font-weight: 500 !important;
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
 }
 
-
 .cards_aplication {
-		margin-top: 55px;
+  margin-top: 55px;
 }
 
 .cards-titles_boxx {
-	margin-top: 30px;	
+  margin-top: 30px;
 }
 
 .cards_titles_b {
-	color: #ded7d7;
-	font-size: 25px;
-	font-weight: 500;
+  color: #ded7d7;
+  font-size: 25px;
+  font-weight: 500;
 }
 
 .cards_color-images {
-	margin-right: 10px;
-	border-radius: 7px;
+  margin-right: 10px;
+  border-radius: 7px;
 }
-
 
 
 /* Галерея кольори в дизайні*/
 
 .gallery-boxx {
-	margin: 50px auto;
+  margin: 50px auto;
 }
 
 .gallery-images {
-	margin: 10px auto;
-	border-radius: 0px;
+  margin: 10px auto;
+  border-radius: 0px;
 }
 
-	/*Секція контакти */
+.overflow {
+  overflow: visible;
+}
+
+
+/*Секція контакти */
 
 .logo-contact {
-	width: 400px;
+  width: 400px;
 }
 
 .contact-boxx {
-	margin: 50px auto;
-	background-color:rgba(23, 22, 22, 0.6);
+  margin: 50px auto;
+  background-color: rgba(23, 22, 22, 0.6);
 }
 
 .contact-article {
-	color: #ded7d7;
-	font-size: 33px;
-    font-weight: 500;
-	text-align: center;
+  color: #ded7d7;
+  font-size: 33px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .contact-paragraph {
-	color: #ded7d7;
-   	font-size: 30px;	
-	line-height: 60px;
-	border-bottom: 1px solid #ded7d7;
-	font-weight: normal;
+  color: #ded7d7;
+  font-size: 30px;
+  line-height: 60px;
+  border-bottom: 1px solid #ded7d7;
+  font-weight: normal;
 }
 
 .contact-tel {
-	display: block;
-	color: #ded7d7;
-	font-size: 25px;
-	line-height: 60px;
-	border-bottom: 1px solid #ded7d7;
-	font-weight: normal;
+  display: block;
+  color: #ded7d7;
+  font-size: 25px;
+  line-height: 60px;
+  border-bottom: 1px solid #ded7d7;
+  font-weight: normal;
+  padding-left: 5px;
 }
 
 .contact-mail {
-	display: block;
-	color: #ded7d7;
-	font-size: 30px;
-	line-height: 60px;
-	border-bottom: 1px solid #ded7d7;
-	font-weight: normal;
+  display: block;
+  color: #ded7d7;
+  font-size: 30px;
+  line-height: 60px;
+  border-bottom: 1px solid #ded7d7;
+  font-weight: normal;
 }
 
 .contactregion-boxx {
-	color: #ded7d7;
-	font-size: 25px;
-	border-bottom: 2px solid #ded7d7;
-	margin: 50px auto;
-	background-color: rgba(23, 22, 22, 0.6);
-	font-weight:400;
+  color: #ded7d7;
+  font-size: 25px;
+  border-bottom: 2px solid #ded7d7;
+  margin: 50px auto;
+  background-color: rgba(23, 22, 22, 0.6);
+  font-weight: 400;
 }
 
+.carousel-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.pading {
+  padding-left: 18px;
+}
 
 
 /* Карта Гоогл */
 
-
 .mapstwo {
-	height: 450px;
-	width: 100%;
-	margin: 50px auto;
+  height: 450px;
+  width: 100%;
+  margin: 50px auto;
 }
+
 
 /* Слайдер контакти */
 
 .slide-iconn {
-	width: 40px !important;
-	height: 40px !important;
-	border: 1px solid #fff;
-	border-radius: 50px;
-	background-color: #000;
+  width: 40px !important;
+  height: 40px !important;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  background-color: #000;
 }
 
-
-
 .slide-title {
-	color: #4a4949;
-	font-size: 30px;
-	font-style: italic;
-	font-weight: bold;
+  color: #4a4949;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .slide-article {
-	color: #4a4949;
-	font-size: 27px;
-	font-style: italic;
+  color: #4a4949;
+  font-size: 27px;
+  font-style: italic;
 }
+
 
 /* Відео */
 
 .video-boxx {
-	width: 100%;
-	margin: 50px auto;
-	border: 2px solid #726969;
+  width: 100%;
+  margin: 50px auto;
+  border: 2px solid #726969;
 }
+
 
 /* Секція наші партнери*/
 
 .partners-boxx {
-	margin: 50px auto;
-	text-align: center;
+  margin: 50px auto;
+  text-align: center;
 }
 
 .line-partners {
-	width: 100px;
-	height: 2px;
-	display: inline-block;
-	background-color: #ded7d7;
-	margin: 0px 20px;
+  width: 100px;
+  height: 2px;
+  display: inline-block;
+  background-color: #ded7d7;
+  margin: 0px 20px;
 }
 
-.tel-partners{
-	color: #ded7d7;
-	font-size: 22px;
+.tel-partners {
+  color: #ded7d7;
+  font-size: 22px;
 }
+
 
 /* Підвал Фоотер */
 
 .footer-boxx {
-	background-color: #000;
-	margin: 100px auto;
+  background-color: #000;
+  margin: 100px auto;
 }
 
-
-.social-footer-boxx{
-	text-align: center;
+.social-footer-boxx {
+  text-align: center;
 }
 
 .copyright {
-	font-size: 22px;
-	color: #ded7d7;
-	font-weight: 500;
-	text-align: right;
+  font-size: 22px;
+  color: #ded7d7;
+  font-weight: 500;
+  text-align: right;
 }
 
 .logo-footer {
-	width: 200px
+  width: 200px
 }
+
 
 /* Кнопка на верх*/
 
 .topbuttonimg {
-	display: none;
-	position: fixed;
-	left: 20px;
-	bottom: 20px;
-	opacity: 0.9;
-	z-index: 999;
+  display: none;
+  width: 60px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  opacity: 0.9;
+  z-index: 999;
 }
+
 
 /* HOVER */
 
+.img-fluid:hover {
+  transform: scale(0.8);
+}
+
 .link-font:hover {
-	color: #d89a0f;
-	
+  color: #d89a0f;
 }
 
 .tel:hover {
-	color: #d89a0f;
+  color: #d89a0f;
 }
 
 .tel:hover .phons-icons {
-	color: #057709;
+  color: #057709;
 }
 
 .tel-partners:hover {
-	color: #d89a0f;
+  color: #d89a0f;
 }
 
-
 .contact-mail:hover .mail-icons {
-	color: #0eabc7;
+  color: #0eabc7;
 }
 
 .social-icon:hover {
-	transform: scale(1.3);
+  transform: scale(1.3);
 }
 
-
 .contact-tel:hover {
-	color: #d89a0f;
+  color: #d89a0f;
 }
 
 .contact-tel:hover .phons-icons {
-	color: #057709;
+  color: #057709;
 }
 
 .contact-mail:hover {
-	color: #d89a0f;
+  color: #d89a0f;
 }
+
 
 /* Схована іконка вібер для мобільних */
 
 .sociaiconmobile {
-	display:none;
+  display: none;
 }
+
 
 /* Медіазапроси */
 
 @media screen and (min-width: 960px) and (max-width: 1200px) {
-	
-	.link-font {
-		font-size: 18px;
-	}
-	
-	.tel {
-		font-size: 18px;
-	}
-	
-	.contact-article {
-		color: #ded7d7;
-		font-size: 25px;
-		font-weight: 500;
-		text-align: center;
-	}
-	
-	.contact-paragraph {
-		color: #ded7d7;
-		font-size: 22px;
-		line-height: 60px;
-		border-bottom: 1px solid #ded7d7;
-		font-weight: normal;
-	}
-	
-	.contact-tel {
-		display: block;
-		color: #ded7d7;
-		font-size: 20px;
-		line-height: 60px;
-		border-bottom: 1px solid #ded7d7;
-		font-weight: normal;
-	}
-	
-	.contact-mail {
-		display: block;
-		color: #ded7d7;
-		font-size: 18px;
-		line-height: 60px;
-		border-bottom: 1px solid #ded7d7;
-		font-weight: normal;
-	}
-	
-	.sociaiconmobile {
-		display: none;
-	}
-	
+  .link-font {
+    font-size: 18px;
+  }
+  .tel {
+    font-size: 18px;
+  }
+  .contact-article {
+    color: #ded7d7;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .contact-paragraph {
+    color: #ded7d7;
+    font-size: 22px;
+    line-height: 60px;
+    border-bottom: 1px solid #ded7d7;
+    font-weight: normal;
+  }
+  .contact-tel {
+    display: block;
+    color: #ded7d7;
+    font-size: 20px;
+    line-height: 60px;
+    border-bottom: 1px solid #ded7d7;
+    font-weight: normal;
+  }
+  .contact-mail {
+    display: block;
+    color: #ded7d7;
+    font-size: 18px;
+    line-height: 60px;
+    border-bottom: 1px solid #ded7d7;
+    font-weight: normal;
+  }
+  .sociaiconmobile {
+    display: none;
+  }
 }
 
-
 @media screen and (min-width: 768px) and (max-width: 960px) {
-	
-	.link-font {
-		font-size: 18px;
-	}
-	
-	.tel {
-		font-size: 18px;
-	}
-	
-	.contact-article {
-		color: #ded7d7;
-		font-size: 25px;
-		font-weight: 500;
-		text-align: center;
-	}
-	
-	.contact-paragraph {
-		color: #ded7d7;
-		font-size: 22px;
-		line-height: 60px;
-		border-bottom: 1px solid #ded7d7;
-		font-weight: normal;
-	}
-	
-	.contact-tel {
-		display: block;
-		color: #ded7d7;
-		font-size: 20px;
-		line-height: 60px;
-		border-bottom: 1px solid #ded7d7;
-		font-weight: normal;
-	}
-	
-	.contact-mail {
-		display: block;
-		color: #ded7d7;
-		font-size: 18px;
-		line-height: 60px;
-		border-bottom: 1px solid #ded7d7;
-		font-weight: normal;
-	}
-	
-	.sociaiconmobile {
-		display: none;
-	}
-	
-	.cards_titles_b {
-		color: #ded7d7;
-		font-size: 18px;
-		font-weight: 500;
-	}
-	
+  .link-font {
+    font-size: 18px;
+  }
+  .tel {
+    font-size: 18px;
+  }
+  .contact-article {
+    color: #ded7d7;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .contact-paragraph {
+    color: #ded7d7;
+    font-size: 22px;
+    line-height: 60px;
+    border-bottom: 1px solid #ded7d7;
+    font-weight: normal;
+  }
+  .contact-tel {
+    display: block;
+    color: #ded7d7;
+    font-size: 20px;
+    line-height: 60px;
+    border-bottom: 1px solid #ded7d7;
+    font-weight: normal;
+    padding: 0;
+  }
+  .contact-mail {
+    display: block;
+    color: #ded7d7;
+    font-size: 18px;
+    line-height: 60px;
+    border-bottom: 1px solid #ded7d7;
+    font-weight: normal;
+  }
+  .sociaiconmobile {
+    display: none;
+  }
+  .cards_titles_b {
+    color: #ded7d7;
+    font-size: 18px;
+    font-weight: 500;
+  }
 }
 
 @media screen and (min-width: 540px) and (max-width: 768px) {
-	
-	.navigation {
-		margin: 10px auto;
-	}
-	
-	.title_responsivB {
-		display: block;
-		text-align: center;
-	}
-	
-	.title_responsivA {
-		display: none;
-	}
-	
-	.contact-article {
-		color: #ded7d7;
-		font-size: 25px;
-		font-weight: 500;
-		text-align: center;
-	}
-	
-	.contact-paragraph {
-		color: #ded7d7;
-		font-size: 22px;
-		line-height: 60px;
-		border-bottom: 1px solid #ded7d7;
-		font-weight: normal;
-	}
-	
-	.contact-tel {
-		display: block;
-		color: #ded7d7;
-		font-size: 20px;
-		line-height: 60px;
-		border-bottom: 1px solid #ded7d7;
-		font-weight: normal;
-	}
-	
-	.contact-mail {
-		display: block;
-		color: #ded7d7;
-		font-size: 20px;
-		line-height: 60px;
-		border-bottom: 1px solid #ded7d7;
-		font-weight: normal;
-	}
-	.line-partners {
-		width: 70px;
-		height: 2px;
-		display: inline-block;
-		background-color: #ded7d7;
-		margin: 0px 20px;
-	}
-	
-	.logo-footer {
-		margin: 0px auto;
-		display: block;
-	}
-	.copyright {
-		font-size: 22px;
-		color: #ded7d7;
-		text-align: center;
-		margin-top: 20px;
-	}
-	
-	.sociaiconmobile {
-		display:inline-block;
-	}
-	
-	.sociaiconpc {
-		display: none;
-	}
-	
-	.cards_aplication {
-		display: block;
-		margin: 20px auto;
-	}
+  .navigation {
+    margin: 10px auto;
+  }
+  .title_responsivB {
+    display: block;
+    text-align: center;
+  }
+  .title_responsivA {
+    display: none;
+  }
+  .contact-article {
+    color: #ded7d7;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .contact-paragraph {
+    color: #ded7d7;
+    font-size: 22px;
+    line-height: 60px;
+    border-bottom: 1px solid #ded7d7;
+    font-weight: normal;
+  }
+  .contact-tel {
+    display: block;
+    color: #ded7d7;
+    font-size: 20px;
+    line-height: 60px;
+    border-bottom: 1px solid #ded7d7;
+    font-weight: normal;
+    padding: 0;
+  }
+  .contact-mail {
+    display: block;
+    color: #ded7d7;
+    font-size: 20px;
+    line-height: 60px;
+    border-bottom: 1px solid #ded7d7;
+    font-weight: normal;
+  }
+  .line-partners {
+    width: 70px;
+    height: 2px;
+    display: inline-block;
+    background-color: #ded7d7;
+    margin: 0px 20px;
+  }
+  .logo-footer {
+    margin: 0px auto;
+    display: block;
+  }
+  .copyright {
+    font-size: 22px;
+    color: #ded7d7;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .sociaiconmobile {
+    display: inline-block;
+  }
+  .sociaiconpc {
+    display: none;
+  }
+  .cards_aplication {
+    display: block;
+    margin: 20px auto;
+  }
 }
 
 @media screen and (min-width: 280px) and (max-width: 540px) {
-	
-	.navigation {
-		margin: 10px auto;
-	}
-	
-	.title_responsivB {
-		display: block;
-		text-align: center;
-	}
-	
-	.title_responsivA {
-		display: none;
-	}
-	
-	.tel {
-		margin: 5px auto;
-		text-align: center;
-		display: block;
-		color: #ded7d7;
-		font-size: 19px;
-		font-weight: 500;
-	}
-
-	.title-head {
-		color: #ded7d7;
-		font-size: 40px;
-		margin: 10px auto;
-		text-align: center;
-	}
-
-	
-	.contact-article {
-		color: #ded7d7;
-		font-size: 25px;
-		font-weight: 500;
-		text-align: center;
-	}
-	
-	.contact-paragraph {
-		color: #ded7d7;
-		font-size: 20px;
-		line-height: 60px;
-		border-bottom: 1px solid #ded7d7;
-		font-weight: normal;
-	}
-	
-	.contact-tel {
-		display: block;
-		color: #ded7d7;
-		font-size: 20px;
-		line-height: 60px;
-		border-bottom: 1px solid #ded7d7;
-		font-weight: normal;
-	}
-	
-	.contact-mail {
-		display: block;
-		color: #ded7d7;
-		font-size: 19px;
-		line-height: 60px;
-		border-bottom: 1px solid #ded7d7;
-		font-weight: normal;
-	}
-	
-	.contactregion-boxx {
-		color: #ded7d7;
-		font-size: 22px;
-		border-bottom: 2px solid #ded7d7;
-		margin: 50px auto;
-		background-color: rgba(23, 22, 22, 0.6);
-		font-weight: normal;
-	}
-	
-	.line-partners {
-	   display: none;
-	}
-
-	.logo-footer {
-		margin: 0px auto;
-		display: block;
-	}
-	
-	.copyright {
-		font-size: 22px;
-		color: #ded7d7;
-		font-weight: 500;
-		text-align: center;
-		margin-top: 20px;
-	}
-	
-	.sociaiconmobile {
-		display:inline-block;
-	}
-	
-	.sociaiconpc {
-		display: none;
-	}
-	
-	.topbuttonimg {
-		display: none;
-		position: fixed;
-		left: 20px;
-		bottom: 20px;
-		width: 50px;
-		opacity: 0.9;
-		z-index: 999;
-	}
-	
-	.cards_color-images {
-		border-radius: 7px;
-    	text-align: center;
-    	display: block;
-    	margin: 10px auto;
-	}
-	
-	.cards_titles_b {
-		color: #ded7d7;
-		font-size: 18px;
-		font-weight: 500;
-		display: block;
-		margin: 10px auto;
-		text-align: center;
-	}
-	
-	.cards_aplication {
-		display: block;
-		margin: 20px auto;
-	}
-	
+  .navigation {
+    margin: 10px auto;
+  }
+  .title_responsivB {
+    display: block;
+    text-align: center;
+  }
+  .title_responsivA {
+    display: none;
+  }
+  .tel {
+    margin: 5px auto;
+    text-align: center;
+    display: block;
+    color: #ded7d7;
+    font-size: 19px;
+    font-weight: 500;
+  }
+  .title-head {
+    color: #ded7d7;
+    font-size: 40px;
+    margin: 10px auto;
+    text-align: center;
+  }
+  .contact-article {
+    color: #ded7d7;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .contact-paragraph {
+    color: #ded7d7;
+    font-size: 20px;
+    line-height: 60px;
+    border-bottom: 1px solid #ded7d7;
+    font-weight: normal;
+  }
+  .contact-tel {
+    display: block;
+    color: #ded7d7;
+    font-size: 20px;
+    line-height: 60px;
+    border-bottom: 1px solid #ded7d7;
+    font-weight: normal;
+    padding: 0;
+  }
+  .contact-mail {
+    display: block;
+    color: #ded7d7;
+    font-size: 19px;
+    line-height: 60px;
+    border-bottom: 1px solid #ded7d7;
+    font-weight: normal;
+  }
+  .contactregion-boxx {
+    color: #ded7d7;
+    font-size: 22px;
+    border-bottom: 2px solid #ded7d7;
+    margin: 50px auto;
+    background-color: rgba(23, 22, 22, 0.6);
+    font-weight: normal;
+  }
+  .line-partners {
+    display: none;
+  }
+  .logo-footer {
+    margin: 0px auto;
+    display: block;
+  }
+  .copyright {
+    font-size: 22px;
+    color: #ded7d7;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .sociaiconmobile {
+    display: inline-block;
+  }
+  .sociaiconpc {
+    display: none;
+  }
+  .topbuttonimg {
+    display: none;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    width: 50px;
+    opacity: 0.9;
+    z-index: 999;
+  }
+  .cards_color-images {
+    border-radius: 7px;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+  }
+  .cards_titles_b {
+    color: #ded7d7;
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+  }
+  .cards_aplication {
+    display: block;
+    margin: 20px auto;
+  }
 }
-
-
-
