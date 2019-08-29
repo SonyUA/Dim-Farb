@@ -1,6 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  background-image: url(../img/images/wood-2045379.jpg);
+  background-image: url(../img/images/vintage-1557993_1920.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -8,7 +8,7 @@ body {
 
 body:before {
   content: '';
-  background-image: url(../img/images/wood-2045379.jpg);
+  background-image: url(../img/images/vintage-1557993_1920.jpg);
   position: fixed;
   background-size: cover;
   background-position: center;
