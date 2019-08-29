@@ -222,6 +222,10 @@ body:before {
 
 /* Карта Гоогл */
 
+.contct-marg {
+  margin-left: 5px;
+}
+
 .mapstwo {
   height: 450px;
   width: 100%;
